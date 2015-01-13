@@ -35,7 +35,7 @@ $.extend(Marx.prototype, {
   create_controls: function() {
     var open_controls,
       _this = this;
-    $('body').append("<div class=\"marx-js-controls " + this.settings.position + "\">\n</div>");
+    $('body').append("<div class=\"marx-js-controls " + this.settings.position + "\">\n  <link rel=\"stylesheet\" href=\"marx.css\">\n</div>");
     this.$el = $('.marx-js-controls');
     open_controls = this.settings.controls !== 'toggle-all' ? "<a href='#open-controls' class='open-controls'>Marx.js</a>" : "<div class=\"open-controls\">\n  <a href=\"#advanced-controls\" class=\"advanced-controls\" title=\"Show Advanced Controls\">Advanced Controls</a>\n  <a href=\"#standard-controls\" class=\"standard-controls\" title=\"Show Standard Controls\">Standard Controls</a>\n  <a href=\"#populate-whole-form\" class=\"quick-populate\" title=\"Populate Whole Form\">Marx.js</a>\n</div>";
     this.$el.append(open_controls);

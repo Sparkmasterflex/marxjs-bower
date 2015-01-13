@@ -1,13 +1,16 @@
 {
   "name": "marxjs",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "authors": [
     "Sparkmasterflex <raymondke99@gmail.com>"
   ],
   "description": "Marx.js was created for developers building web applications with long forms. Marx.js is a plugin that gives the developer the ability to populate any and all the fields in their forms easily and with a small 10kb file.",
   "main": [
     "javascripts/marx.js",
-    "stylesheets/marx.css"
+    "stylesheets/marx.css",
+    "images/advanced.png",
+    "images/groucho.png",
+    "images/standard.png"
   ],
   "keywords": [
     "jQuery",
